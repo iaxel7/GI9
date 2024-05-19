@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Budget Tracker</h1>
+        <p>Learn More About Budgeting:</p>
+        <a href="https://www.investopedia.com/financial-edge/1109/6-reasons-why-you-need-a-budget.aspx">Article</Article></a>
+    </header>
+    <main>
+
+        <section id="income">
+            <h2>Income</h2>
+            <input type="text" id="income-description" placeholder="Income-Type">
+            <input type="number" id="income-amount" placeholder="Amount">
+            <button id="add-income">Add Income</button>
+        </section>
+
+        <section id="expenses">
+            <h2>Expenses</h2>
+            <input type="text" id="expense-description" placeholder="Description">
+            <input type="number" id="expense-amount" placeholder="Amount">
+            <button id="add-expense">Add Expense</button>
+        </section>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <div>Total Income: <span id="total-income">$0</span></div>
+            <div>Total Expenses: <span id="total-expenses">$0</span></div>
+            <div>Total Budget: <span id="total-budget">$0</span></div>
+        </section>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
